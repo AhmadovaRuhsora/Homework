@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 10px;
+			padding: 10px;
+		}
+		.box{
+			width: 1000px;
+			height: 500px;
+			margin: auto;
+			display: flex;
+		}
+		.box1{
+			width: 300px;
+			height: 300px;
+			border: 2px solid black;
+			overflow: hidden;
+			position: relative; 
+			transition: 0.4s;
+		}
+		.box1:hover{
+			background-color: lightblue;
+		}
+		.box2{
+			width: 300px;
+			height: 300px;
+			border: 2px solid black;
+			overflow: hidden;
+			position: relative; 
+			transition: 0.4s;
+		}
+		.box2:hover{
+			background-color: lightblue;
+		}
+		.box2:hover img{
+			opacity: 1;
+		}
+		.box3{
+			width: 300px;
+			height: 300px;
+			border: 2px solid black;
+			overflow: hidden;
+			position: relative; 
+			transition: 0.4s;
+		}
+		.box3:hover{
+			background-color: lightblue;
+		}
+		.box3:hover img{
+			opacity: 1;
+		}
+		img{
+			width: 50px;
+			margin: auto;
+			opacity: 0;
+			transition: 0.4s;
+			position: absolute;
+			top: 50%;
+            left: 50%;
+            border-radius: 100%;
+            transform: translate(-50%, -50%);
+		}
+		
+	</style>
+</head>
+<body>
+<div class="box">
+	<div class="box1">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</div>
+	<div class="box2">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<img src="googlelogo.jpg" class="logo">
+	</div>
+	<div class="box3">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<a href="https://www.google.com/">
+			<img src="googlelogo.jpg" class="logo">
+		</a>
+	</div>
+</div>
+
+</body>
+</html>
